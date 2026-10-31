@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for a dedicated full-page Clinical Intake Screen in Soltech OS, replacing floating modal popups with an in-screen workspace featuring top segmented tabs to switch seamlessly between Symptoms Intake and Medical History, universal back navigation, and direct routing to the Doctor Queue.",
+  "updatedAt":  "2026-10-31T16:04:56.947600646Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

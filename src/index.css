@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Inter', sans-serif;
+
+  --color-primary-50: #F2F6FB;
+  --color-primary-100: #E4EDF7;
+  --color-primary-200: #C9DBF0;
+  --color-primary-300: #A6C3E5;
+  --color-primary-400: #739FD3;
+  --color-primary-500: #4B77B7;
+  --color-primary-600: #39609B;
+  --color-primary-700: #2C4A79;
+  --color-primary-800: #21385C;
+  --color-primary-900: #172740;
+  --color-primary-950: #0E1827;
+
+  --color-blue-50: #F2F6FB;
+  --color-blue-100: #E4EDF7;
+  --color-blue-200: #C9DBF0;
+  --color-blue-300: #A6C3E5;
+  --color-blue-400: #739FD3;
+  --color-blue-500: #4B77B7;
+  --color-blue-600: #39609B;
+  --color-blue-700: #2C4A79;
+  --color-blue-800: #21385C;
+  --color-blue-900: #172740;
+  --color-blue-950: #0E1827;
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    font-family: 'Inter', sans-serif !important;
+  }
+  html,
+  body,
+  #root {
+    font-family: 'Inter', sans-serif !important;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea,
+  dialog {
+    font-family: 'Inter', sans-serif !important;
+  }
+}
+
+.font-mono,
+.font-sans,
+.font-serif {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Custom inner vertical scrollbar for modals */
+.custom-modal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+.custom-modal-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-modal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.6);
+  border-radius: 9999px;
+}
+.custom-modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+.custom-modal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

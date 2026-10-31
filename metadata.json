@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Soltech Reception Dashboard",
+  "description": "Enterprise-grade clinic receptionist operational control center with clinic daily performance analytics, modular adjustable sections, strict one-patient one-stage workflow tracking, check-in, assessment, doctor queues, investigation, and billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
